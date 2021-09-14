@@ -3,6 +3,14 @@ html {
     scroll-behavior: smooth;
     scroll-padding: 90px;
 }
+
+.A8{
+    margin-top: 90px;
+    top: 8px;
+    left: 30px;
+    position:absolute;
+    font-size: 20px;
+}
 .menu{
     background:rgb(50, 50, 50);
     text-align: center;
@@ -36,12 +44,14 @@ html {
 .menu ul li:hover>a{
     color: black;
 }
+.image{
+    position: relative;
+}
 .image img{
     width: 97.5%;
     height:800px;
     margin-left: 20px;
     margin-top: 5%;
-    position: relative;
 }
 .Team{
     text-align: center;
